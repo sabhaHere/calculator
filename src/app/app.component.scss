@@ -1,0 +1,92 @@
+.main{
+    
+    height: 300px;
+    width: 400px;
+    left: 30%;
+   
+    position: absolute;
+    top: 15%;
+   
+    
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  
+}
+.inputDiv{
+    height: 50px;
+    width: 380px;
+    padding: 10px;
+    background-color: rgba(127, 255, 212, 0.15);
+   
+}
+input{
+    margin-top: 5px;
+    width: 370px;
+    height: 30px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn{
+    width: 380px;
+    height: 30px;
+    margin-top: 10px;
+}
+.numberDiv{
+ width: 250px;
+ height: 300px;
+ justify-items: center;
+ background-color: white;
+ padding: 10px;
+ 
+ 
+}
+.numberDivchild{
+   margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: bold;
+  
+    gap: 10px;
+  
+ 
+}
+.operatorDivchild{
+    
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     font-weight: bold;
+     gap: 20px;
+     
+    padding:5px;
+    
+}
+.divop{
+    width:100%;
+    height: 100%;
+    justify-self: center;
+   border-radius: 4px;
+}
+ 
+.divItems{
+    width:100%;
+    height: 100%;
+    font-size: larger;
+   border-radius: 4px;
+   background-color: rgb(178, 178, 69);
+
+  
+
+   
+
+}
+.operatorMain{
+    margin-left: 20px;
+}
+.divItems:hover{
+    background-color: rgba(0, 0, 0, 0.274);
+    color:black;
+    align-content: center;
+    padding: 5px;
+
+}
